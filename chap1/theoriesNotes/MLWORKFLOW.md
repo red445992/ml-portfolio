@@ -11,3 +11,16 @@ Here we will understand about CRISP-DM (Cross industry Standard Process for Data
 6. Deployment
 
 ![CRISP-DM IMAGE](../Images/1.jpg)
+
+Lets Understand each step briefly:
+1. Business Understanding: It refers to what problem we are solving. It defines our project objectives and understanding how this solution benefit the business.
+
+2. Data Understanding: It basically tells us if the data we have are useful or not. It tells what we have and how can we use it. It includes exploring data with visualization and statistics.
+
+3. Data preparation: It involves structuring and cleaning data for modeling. It includes fixing errors, missing values. It helps to split data into training and test sets.
+
+4. Modeling: It means building and training model with our data. For this we choose an algorithm, then train the model with that algorithm on prepared data and tune the model for better performance.
+
+5. Evalutaion: It means analyzing whether or not our model solve the problem or not. In this step we see if the obtained result alined with the business objectives or not.
+
+6. Deployment: It means putting the model for the real world application. It includes integrating into apps, dashboards, or workflows.
