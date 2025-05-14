@@ -10,4 +10,4 @@ Here we will understand about CRISP-DM (Cross industry Standard Process for Data
 5. Model Evalutaion
 6. Deployment
 
-[CRISP-dm](1.jpg)
+![CRISP-dm](Images/1.jpg)
