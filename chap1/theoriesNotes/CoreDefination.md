@@ -25,3 +25,16 @@ i. Regression: Regression are used to make prediction and give answers in numeri
 
  ii. Classification: Classification predicts the likelihood that something belongs to a category or not. Unlike regression model whose output is a numeric value, classification gives output either 0 (false) or 1 (True). For example classification helps to classify whether a mail is spam or not. 
  There are also two typess of classification : Binary Classification, Multiclass classification. Lets Understand it as: There is a model which predicts rainfall based on the given inputs. With binary classification the model predicts either it rains or no rain. Basically a yes or no statement. But with Multi class classification model can predicts either rain, hail or snow basically multiple possibilities.
+
+
+ # Unsupervised Learning
+ Unsupervised Learning help model predict by giving datas that doesnt contain correct answers. It make predicitions by making patterns among the datas. The famous method for unsupervised learning is Clustering. 
+
+ # Reinforcement Learning
+ Reinforcement learning is a process where a model learn by make decisions by interacting with environments and trying to maximize rewards over time. 
+
+ # Generative AI
+ Generative AI is a class of models that help to generate content based on user inputs. On high level generative AI works studying the patterns in the data and model try to mimic the data it trained on. 
+ The classy example of GENAI is that comedian trying to intimate people based on their behaviour.
+
+ 
