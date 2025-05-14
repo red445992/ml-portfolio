@@ -17,8 +17,11 @@ Supervised learning is a process of training a model with a large set of datas w
 There are two types of supervies learning: Regression and classification
 i. Regression: Regression are used to make prediction and give answers in numeric value. For example model calculating the amount of rainfall based on different known parameters like humidity, atmosphere etc is a regression model. 
  Further See the table below to see more examples of Regression: 
- |Scenario | Possible Input Data | Output |
- |Future House Price | square foot, no of bedrooms, location, constructions costs, property tax, morgae tax etc | The price of a home|
+
+| Scenario            | Possible Input Data                                                                 | Output                |
+|---------------------|--------------------------------------------------------------------------------------|------------------------|
+| Future House Price  | Square foot, number of bedrooms, location, construction costs, property tax, mortgage tax | The price of a home   |
+
 
  ii. Classification: Classification predicts the likelihood that something belongs to a category or not. Unlike regression model whose output is a numeric value, classification gives output either 0 (false) or 1 (True). For example classification helps to classify whether a mail is spam or not. 
  There are also two typess of classification : Binary Classification, Multiclass classification. Lets Understand it as: There is a model which predicts rainfall based on the given inputs. With binary classification the model predicts either it rains or no rain. Basically a yes or no statement. But with Multi class classification model can predicts either rain, hail or snow basically multiple possibilities.
