@@ -21,8 +21,8 @@
 ## **Project Showcase**  
 | Project | Description | Tools |  
 |---------|-------------|-------|  
-| **[Iris Classification](chapter-1-intro/iris-classification.ipynb)** | Implemented ML workflow from scratch | Scikit-learn · Pandas |  
-| **[Titanic Survival Predictor](chapter-2-supervised/titanic.ipynb)** | Binary classification with feature engineering | Matplotlib · Seaborn |  
+| **[Iris Classification](chap1/codes/Iris-classification.ipynb)** | Implemented ML workflow from scratch | Scikit-learn · Pandas |  
+| **[Titanic Survival Predictor](chap1/project/TitanicSurvival.ipynb)** | Binary classification with feature engineering | Matplotlib · Seaborn |  
 | **[Customer Segmentation](chapter-3-unsupervised/customer-segmentation.ipynb)** | K-Means clustering + PCA visualization | Plotly · Scipy |  
 
 *(Projects update as I complete chapters!)*  
