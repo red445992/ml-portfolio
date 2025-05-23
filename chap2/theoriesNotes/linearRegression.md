@@ -25,4 +25,24 @@ Mean Squared Error = the average of loss of l2 loss
 # chosing a loss function
 Deciding upon MSE or MAE depends on the way you want to handle certain predictions. 
 An outlier refers to how far the model prediction is from actual values.
-When choosing the best loss function consider how you want to treat the outliers. You if want your model near to outliers use MSE and if you want your model more close to the data points use MAE
+When choosing the best loss function consider how you want to treat the outliers. You if want your model near to outliers use MSE and if you want your model more close to the data points use MAE.
+
+# Gradient Descent
+Gradient Descent is a mathmatical technique that iteratively calculates the weight and bias that produce the model with minimum loss. The model begins training with randomized weights and bias near zero and then repeats the following steps:
+1. calculate loss with current bias and weight
+2. Determine the direction to move the weights and bias that reduce loss
+3. move the weight and bias values a small amount in the direction of reduce loss
+4. return to step 1 and repeat the process until the model cannot reduce the loss any further
+
+
+# Hyperparameter 
+Hyperparameter are variables that controls different aspects of training. Three common hyperparameters are learning rate, epoch, batch size.
+
+## Learning Rate: 
+It is a floating point number that influences how fast the model converges. If the learning rate is too low, model would take long time to converge. However if learning rate is too high it might never converges. The goal is to take learning rate not too high or low so that model converges quickly.
+## Batch size: 
+It refers to number of examples the model processes before updating its weight and bias. A dataset might contains hundreds of thousands of data so calculating loss of every example isnt practical. ie full batch size. Two of the common techniques to get the right gradient on average without the need of looking at every example are stochasitc gradient descent and mini batch stochasitic gradient descent.
+
+## Epochs
+During training, an epoch means that the model has processed every example in the training set once. For example, given a training set with 1000 examples and a mini batch size of 100 examples, it will take the model 10 iterations to complete one epoch.
+
