@@ -2,7 +2,9 @@
 **Goal:** *To build industry-ready ML skills through structured learning, hands-on projects, and competitive challenges—transitioning from academic concepts to real-world problem solving.*
 
 ---
-
+## Skills Progress  
+![Python](https://img.shields.io/badge/Python-Intermediate-yellow)  
+![ML](https://img.shields.io/badge/Machine_Learning-Beginner-green)  
 ## **Learning Roadmap**  
 ### **Core Curriculum** *(Based on Pokhara University Syllabus)*  
 1. **Foundations**  
