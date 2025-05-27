@@ -10,3 +10,12 @@
     In 2016 microsoft releases TAY chatbot in twitter which learned from public interaction in Twitter. However, in few hours, users start feeding it in appropriate contents and text leading TAY to act in the same way and start posting offensive contents, text and images in the twitter. It start giving harmful responses leading to shutdown with in 24 hrs of deployment.
 
     This shows a key ehtical consideration of AI: Bias from unfiltered user input, importance of responsible AI deployment.
+
+## Data Privacy and Security
+    ML model are trained on sensitive data(medical reports, Financial reprt) which risk in leaking the private information either through output or adversarial attack
+
+    Eg: Membership Inference Attack: Hackers can determine if a sepcific person's data is used to train model or not
+        Deepfake Misuse: Generative AI model can create realistic fake images/videos enabling misinformation or fraud.
+## Model Interpretability ("Black Box" Problem)
+    Many advanced Ml model (eg deep neural network) operates as "Black boxes" making it difficult to understand how they arrive at the predicition. This lack of transparency raises the question of ethical or practical concerns.
+    Eg: Health Care: A model diagnosing diseases might achieve 95% accuracy in detecting brain tumor but fails to explain which features drove this decision. Doctors cannot trust or correct its reasoning without interpretability.
