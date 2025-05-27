@@ -14,6 +14,7 @@ Machine learning system can fall under one or more of the following category acc
 
 ## Supervised Learning
 Supervised learning is a process of training a model with a large set of datas with correct answers and then model itself make connections between elements in the data to produce the correct answer. It is like student preparing for upcoming exams by learning from multiples old question bank with both question and correct answers. After learning from multiple question sets they are ready for the next exams. 
+
 ![SupervisedLearning](../Images/supervised-machine-learning.jpg)
 
 There are two types of supervised learning: Regression and classification
