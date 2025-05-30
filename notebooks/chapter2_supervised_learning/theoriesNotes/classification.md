@@ -10,3 +10,8 @@ To make this conversion you need a threshold probability called classification t
 
 
 ## Confusion Matrix
+Let's say you have a logistic regression model for spam-email detection that predicts a value between 0 and 1, representing the probability that a given email is spam. A prediction of 0.50 signifies a 50% likelihood that the email is spam, a prediction of 0.75 signifies a 75% likelihood that the email is spam, and so on.
+
+You'd like to deploy this model in an email application to filter spam into a separate mail folder. But to do so, you need to convert the model's raw numerical output (e.g., 0.75) into one of two categories: "spam" or "not spam."
+
+To make this conversion, you choose a threshold probability, called a classification threshold. Examples with a probability above the threshold value are then assigned to the positive class, the class you are testing for (here, spam). Examples with a lower probability are assigned to the negative class, the alternative class (here, not spam).
