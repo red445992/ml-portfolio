@@ -122,3 +122,20 @@ You need high confidence in positive predictions
 False positives are worse Examples:
 Legal document classification (false positives could waste lawyer time)
 Email spam detection (you don’t want to lose real emails)
+
+
+## ROC 
+ROC (Receiver Operating Characteristic) Curve is a graph that shows the performance of a classification model at all classification thresholds.
+It plots:
+i. True Positive Rate (TPR) on the Y-axis
+
+ii. False Positive Rate (FPR) on the X-axis
+
+ ### Why Is It Called "Receiver Operating Characteristic"?
+ The name comes from WWII radar systems where they had to detect whether an object was enemy aircraft or not. Engineers needed a way to visualize the trade-offs between detecting true targets (TPR) and generating false alarms (FPR).
+ ### How Is the ROC Curve Constructed?
+  A classifier (e.g., logistic regression) gives probabilities, not hard labels. You can set different thresholds to decide what counts as a "positive".
+  For each threshold, calculate:
+  TPR = TP / (TP + FN) → Recall
+  FPR = FP / (FP + TN)
+  Then, plot (FPR, TPR) as a point on the ROC graph.
