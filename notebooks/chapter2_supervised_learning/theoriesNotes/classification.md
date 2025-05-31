@@ -139,3 +139,23 @@ ii. False Positive Rate (FPR) on the X-axis
   TPR = TP / (TP + FN) → Recall
   FPR = FP / (FP + TN)
   Then, plot (FPR, TPR) as a point on the ROC graph.
+
+###  What is Prediction Bias?
+Prediction Bias is the difference between:
+
+The average (mean) of the model’s predictions
+(i.e., the average of all predicted probabilities)
+
+The average (mean) of the actual labels (ground truth)(i.e., the percentage of actual positives in the data)
+
+Formula:Prediction Bias = Mean(Predictions) - Mean(True Labels)
+
+
+### multiclass classifier
+Multi-class classification can be treated as an extension of binary classification to more than two classes. If each example can only be assigned to one class, then the classification problem can be handled as a binary classification problem, where one class contains one of the multiple classes, and the other class contains all the other classes put together. The process can then be repeated for each of the original classes.
+
+For example, in a three-class multi-class classification problem, where you're classifying examples with the labels A, B, and C, you could turn the problem into two separate binary classification problems. First, you might create a binary classifier that categorizes examples using the label A+B and the label C. Then, you could create a second binary classifier that reclassifies the examples that are labeled A+B using the label A and the label B.
+
+An example of a multi-class problem is a handwriting classifier that takes an image of a handwritten digit and decides which digit, 0-9, is represented.
+
+If class membership isn't exclusive, which is to say, an example can be assigned to multiple classes, this is known as a multi-label classification problem.
