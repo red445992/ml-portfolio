@@ -25,3 +25,20 @@ Common activation functions are:
 2. Tanh: (e^x - e^-x )/(e^x+e^-x)
 3. Relu: max(0,x)
 
+## Training a Feedforward Neural Network
+It involves adjusting weights of the neurons to minimize the error between actual and predicted output. This process is generally perfomed using backpropagaion and gradient descent.
+1. Foward propagation: During forward propagation the input data passes through network and ouput is calculated
+2. loss calculation: Loss is calculated using loss function such as Mean Square Error for regression task and cross entropy for classification tasks.
+3. Backpropagation: error are propagated back through the network to update weights. The gradient of the loss function with respect to each weight is calculated and weights are adjusted using gradient descent.
+
+### Gradient Descent
+it is an optimization algorithm used to minimize the loss by iteratively updating the weights in the direction of negative gradient.
+
+## Evaluation of FNN
+1. accuracy: proportion of correctly classified instances out of total instances
+2. precision: ratio of true positive predictions out of total predicted positive
+3. recall: ration of true positive prediction out of actual positives
+4. F1 score: harmonic mean of precision and recall
+
+## Implementaion Code
+![implementationCode](../../codes/FNN.ipynb)
