@@ -6,10 +6,10 @@ ANN has an input layer, hidden layer and output layer.
     hidden layer = data passes through one or multiple hidden layers that transforms input into meaningful output
     o/p layer = get the data from output layer and pass the meaningful output. here final decision or prediction is made.
 
-    [ANN](../images/ANN.png)
+![ANN](../images/ANN.png)
 
 ## ANN vs Biological Neuron
-    [AnnVsBiologicalNeuron](../images/ANNvsBiological.png)
+![AnnVsBiologicalNeuron](../images/ANNvsBiological.png)
 
     ANN:
     1. Compnents : i/p layer, hidden layer, output layer
