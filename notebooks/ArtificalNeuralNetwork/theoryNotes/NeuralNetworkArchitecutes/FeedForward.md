@@ -9,6 +9,7 @@ It is a foundational architecture used in machine learning tools like classifica
 
 ### Strucutre 
 ![FNN](../../images/FNN.png)
+
 Feedward neural network has a structured layered desing where data flows sequentially thorugh each layer.
 1. input layer: input layer consists of neuron that recieves input data. Each neuron in the input layer represent a feature of the input data
 2. Hidden layer: One or more hidden layer are present between input layer and output layer. Hidden layer are responsible for finding complex patterns in the data.
@@ -20,6 +21,7 @@ Each connections between the neurons has associated weights between them which i
 ### Activation Function
 Activation function introduce non linearity into the network allowing the networks to learn complex data patterns.
 ![Activationfunction](../../images/ActivationFunction.png)
+
 Common activation functions are:
 1. Sigmoid: 1/(1+e^-x)
 2. Tanh: (e^x - e^-x )/(e^x+e^-x)
